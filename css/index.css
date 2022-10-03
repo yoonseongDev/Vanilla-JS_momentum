@@ -1,0 +1,22 @@
+.hidden {
+    display: none;
+}
+
+#container {
+    background-color: white;
+    text-align: center;
+    opacity: 0.5;
+    padding: 5vh;
+    border-radius: 10px;
+    position: absolute;
+    max-width: 400px;
+    min-width: 250px;
+    height: 57%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+:placeholder-shown {
+    text-align: center;
+}
